@@ -1,0 +1,109 @@
+:root{
+    --bgcolor:rgb(187, 198, 210);
+    --highlight:rgb(18, 35, 77);
+    /*greenish = 21,40,102*/
+}
+
+th,td {
+    padding: 15px 30px;
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+table{
+    border-collapse: separate;
+    border-spacing: 25px 25px;
+    color: rgb(46, 46, 46);
+    table-layout: fixed;
+}
+
+td{
+    vertical-align: top;
+    border: 0px solid;
+    word-wrap: break-word;
+}
+
+body{
+    background-color: var(--bgcolor);
+}
+
+#PersonalInfo{
+    background-color: var(--highlight);
+    color:white;
+    padding: 0px 0px;
+
+}
+
+span{
+    color:var(--highlight);
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.536);
+    padding: 10px 0px;
+    font-size: 20px;
+
+}
+
+h2{
+    color:var(--highlight);
+    font-size: 30px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    text-align: right;
+    font-size: 16px;
+    color: rgb(46, 46, 46);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+address{
+    font-size: 16px;
+}
+
+#degree{
+    text-align: center;
+    background-color: rgb(122, 181, 244);
+    font-style: italic;
+    font-size: 14px;
+    padding: 0.2px 1px;
+}
+
+#GithubButton{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px
+}
+
+#linkedinButton{
+    background-color: var(--highlight);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px
+}
